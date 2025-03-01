@@ -8,6 +8,7 @@ const images = [
   { url: "https://picsum.photos/id/239/200/300" },
 ];
 function downloadImage(link){
+	let promise = new promise
 	return new promise((resolve,reject)=>{
 		let random = parseInt(Math.random()*10000)
 		if(link.startWith("https")){
